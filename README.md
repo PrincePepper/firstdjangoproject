@@ -15,7 +15,17 @@
 def index(request):
     return render(request, 'your_html.html')
 ```
+# Deploy HEROKU
 
+Здесь следует добавить `runtime.txt`, `Procfile`, `requirements.txt`:
+- `runtime.txt`
+    - здесь указывает версия Python, например `python-3.8.1`
+- `Procfile`
+    - команду которую должен выполнить heroku.  
+    P.S. firstdjangoproject.wsgi вместо `firstdjangoproject` пишется ваше название проекта
+- `requirements.txt`
+    - библиотеки необходимые для установки
+    
 ##### My contacts:
 1. [Telegram](https://tgmsg.ru/princepepper)
 2. [Вконтакте](https://vk.com/princepepper)
