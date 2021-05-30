@@ -49,7 +49,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'firstdjangoproject.urls'
-
+print(BASE_DIR)
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
