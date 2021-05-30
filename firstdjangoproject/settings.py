@@ -25,7 +25,7 @@ SECRET_KEY = '0!v4m)byy579!$v299)o3z75&f-=kt3+5q-j=@8mmm@ge%#e!@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'ssereda.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'ssereda.herokuapp.com','bentenmysite.herokuapp.com']
 
 
 # Application definition
