@@ -21,32 +21,6 @@ body {
   height: 100%;
 }
 
-#intro {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2000;
-  background: #000000;
-}
-
-#img-intro {
-  height: 15%;
-}
-
-#text-intro {
-  font-family: DengXian, sans-serif;
-  font-size: 1.5rem;
-  font-weight: normal;
-  color: #ffffff;
-  opacity: 75%;
-  text-align: center;
-  z-index: 2000;
-  background: #000000;
-}
-
 #text-name {
   font-family: Forward;
   font-size: 8vmax;
@@ -66,10 +40,6 @@ body {
   padding-bottom: 100px;
 }
 
-.prof-1 {
-  color: #9100fe;
-}
-
 .prof-2 {
   color: #ff8300;
 }
@@ -86,11 +56,6 @@ body {
 .img {
   height: 50%;
   padding: 24px;
-}
-
-#img-footer {
-  height: 10%;
-  padding-bottom: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
