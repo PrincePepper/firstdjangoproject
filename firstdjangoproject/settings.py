@@ -116,4 +116,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = "main_app/templates"
 print(BASE_DIR)
-STATICFILES_DIRS = [BASE_DIR / "main_app/static/main_app", ]
+STATICFILES_DIRS = [BASE_DIR / "main_app/static/", ]
